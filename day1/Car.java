@@ -1,0 +1,71 @@
+package day1;
+
+public class Car {
+String Color;
+int Price;
+int Speed;
+String Model;
+String Engine;
+public static void main(String[] args) {
+	Car C1=new Car();
+	C1.Color="Black";
+	C1.Price=90000;
+	C1.Speed=45;
+	C1.Model="Crysta";
+	C1.Engine="Electrical Engine";
+	System.out.println("Color:"+C1.Color);
+	System.out.println("Price:"+C1.Price);
+	System.out.println("Speed:"+C1.Speed);
+	System.out.println("Model:"+C1.Model);
+	System.out.println("Engine:"+C1.Engine);
+	System.out.println("------------------------------------------");
+	Car C2=new Car();
+	C2.Color="Red";
+	C2.Price=90000;
+	C2.Speed=45;
+	C2.Model="XXXX";
+	C2.Engine="Electrical Engine";
+	System.out.println("Color:"+C2.Color);
+	System.out.println("Price:"+C2.Price);
+	System.out.println("Speed:"+C2.Speed);
+	System.out.println("Model:"+C2.Model);
+	System.out.println("Engine:"+C2.Engine);
+	System.out.println("------------------------------------------");
+	Car C3=new Car();
+	C3.Color="Blue";
+	C3.Price=90000;
+	C3.Speed=45;
+	C3.Model="YYYY";
+	C3.Engine="Electrical Engine";
+	System.out.println("Color:"+C3.Color);
+	System.out.println("Price:"+C3.Price);
+	System.out.println("Speed:"+C3.Speed);
+	System.out.println("Model:"+C3.Model);
+	System.out.println("Engine:"+C3.Engine);
+	System.out.println("------------------------------------------");
+	Car C4=new Car();
+	C4.Color="Brown";
+	C4.Price=90000;
+	C4.Speed=45;
+	C4.Model="zzz";
+	C4.Engine="Electrical Engine";
+	System.out.println("Color:"+C4.Color);
+	System.out.println("Price:"+C4.Price);
+	System.out.println("Speed:"+C4.Speed);
+	System.out.println("Model:"+C4.Model);
+	System.out.println("Engine:"+C4.Engine);
+	System.out.println("------------------------------------------");
+	Car C5=new Car();
+	C5.Color="Black";
+	C5.Price=90000;
+	C5.Speed=45;
+	C5.Model="AAA";
+	C5.Engine="Electrical Engine";
+	System.out.println("Color:"+C5.Color);
+	System.out.println("Price:"+C5.Price);
+	System.out.println("Speed:"+C5.Speed);
+	System.out.println("Model:"+C5.Model);
+	System.out.println("Engine:"+C5.Engine);
+	
+}
+}
